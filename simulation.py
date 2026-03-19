@@ -84,6 +84,7 @@ def _(data, np):
 
     plt.tight_layout()
     fig
+    return
 
 
 if __name__ == "__main__":
