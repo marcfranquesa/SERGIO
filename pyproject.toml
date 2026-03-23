@@ -9,6 +9,7 @@ dependencies = [
     "pandas",
     "marimo",
     "matplotlib>=3.9.4",
+    "scikit-learn>=1.6.1",
 ]
 
 [tool.uv]
