@@ -1,4 +1,4 @@
-# SERGIO — Usage Reference for Claude
+# SERGIO Usage Reference
 
 SERGIO is a stochastic single-cell RNA-seq simulator based on the
 Chemical Langevin Equation (CLE). It simulates steady-state or dynamic
