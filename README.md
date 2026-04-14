@@ -3,6 +3,7 @@
 
 SERGIO v1.0.0
 
+Note: the `lightweight-no-datasets` branch excludes the large `data_sets/` directory so the repository snapshot stays under `100MB`.
 
 Saurabh Sinha’s Lab, University of Illinois at Urbana-Champaign [Sinha Lab](https://www.sinhalab.net/sinha-s-home)
 
@@ -192,7 +193,7 @@ The output of each of these modules including the "count matrix conversion" modu
 ## Repository Contents
 * SERGIO/ contains the python codes required for simulations.
 
-* data_sets/ cotains 11 data sets including 6 steady-state and 5 differentiation simulated data. Each data set's folder contains the input files used in simulations as well the ground truth (gt) GRN. Differentiation data sets' folders also contain the differentiation graph (bMat) used in simulations.
+* data_sets/ cotains 11 data sets including 6 steady-state and 5 differentiation simulated data. In the `lightweight-no-datasets` branch this directory is intentionally omitted to keep the repository snapshot under `100MB`.
 
 * GNW_sampled_GRNs/ contains four networks sampled from the known regulatory network in Ecoli and Yeast using GeneNetWeaver (doi: 10.1093/bioinformatics/btr373). These networks might contain auto-regulatory edges and cycles.
 
